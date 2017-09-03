@@ -3,7 +3,9 @@
 	color: #ffffff;
 	line-height: 70px;
 	font-size: 20px;
-	font-family: 'Georgia', Times, Times New Roman, serif;	
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
 #bioHrLine {
@@ -128,6 +130,7 @@ h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 24px;
 	color: #4aaaa5;
+	font-weight: bold;
 }
 
 #PortImagesIcons {
@@ -185,6 +188,7 @@ footer {
 form {
 	margin-top: 27px;
 }
+
 input, textarea {
 	border: 1px solid #dddddd;
 	width: 564px;
@@ -202,4 +206,15 @@ input[type=submit] {
 	padding: 10px 30px;
 	font-size: 18px;
 	color: #ffffff;
+}
+
+@media screen and (max-width: 979px) {
+
+	section {
+		width: 70%;
+	}
+
+	aside {
+		width: 30%;
+	}
 }
