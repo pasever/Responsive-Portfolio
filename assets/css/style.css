@@ -278,12 +278,19 @@ aside img:hover {
 	}
 	
 	nav ul {
-		display: inline;
 		margin-right: 25px;	
 	}
+	
+	section {
+		padding: 30px 20px 45px 35px;
+  	}
+
+  	aside {
+		padding: 30px 20px 25px 35px;
+  	}
 
 	footer {
-		position: fixed;
+		
 		width: 100%;
 		clear: both;
 	}
@@ -292,9 +299,13 @@ aside img:hover {
 		width: 100%;
 	}
 
+	.push {
+		height: 27px;
+	}
+
 	#socialIcons {
 		justify-content: flex-start;
-		margin-right: 10px;
+		
 	}
 
 	#profilePicture {
