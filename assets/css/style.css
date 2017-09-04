@@ -120,6 +120,10 @@ section, aside {
 	font-size: 18px;
 }
 
+section {
+	height: 100%;
+}
+
 aside {
 	width: 208px;
 	height: 160px;
@@ -154,13 +158,21 @@ h1, h2, h3 {
 	position: absolute;
 	box-sizing: border-box;
 	height: 30%;
-
 }
+
 .PortImages {
 	height: 205px;
 	margin-bottom: 60px;
 	position: relative;
 }
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+}
+
 
 #name {
     background: #4aaaa5;
@@ -241,7 +253,6 @@ aside img:hover {
 	}
 
 	.PortImages, .PortImages img {
-		width: 100%;
 		max-width: 410px;
 		height: 100%
 		max-height: 306px;
@@ -252,7 +263,7 @@ aside img:hover {
 	
 	#name {
 		width: 100%;
-		max-width: 665px;
+		max-width: 300px;
 	}
 
 	#bioContent {
@@ -268,6 +279,7 @@ aside img:hover {
 	
 	nav ul {
 		display: inline;
+		margin-right: 25px;	
 	}
 
 	footer {
@@ -286,14 +298,15 @@ aside img:hover {
 	}
 
 	#profilePicture {
-		width: 100%;
-		margin: 10px auto 16px auto;
-		float: none;
+		width: auto;
+		margin: 20px ;
+
 	}
 
 	.PortImages, .PortImages img {
 		width: 275px;
 		height: 205px;
+		position: center;
 	}
 }
 
