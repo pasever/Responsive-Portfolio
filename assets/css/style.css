@@ -127,7 +127,7 @@ section {
 aside {
 	width: 208px;
 	height: 160px;
-	padding: 30px 30px 20px 30px;
+	padding: 30px 30px 15px 30px;
 }
 
 h1, h2, h3 {
@@ -152,7 +152,7 @@ h1, h2, h3 {
 	font-size: 22px;
 	color: white;
 	text-align: center;
-	bottom: 30px;
+	bottom: 20px;
 	height: 30px;
 	width: 100%;
 	position: absolute;
@@ -286,7 +286,8 @@ aside img:hover {
   	}
 
   	aside {
-		padding: 30px 20px 25px 35px;
+		padding: 30px 20px 15px 35px;
+		width: 100%;
   	}
 
 	footer {
@@ -294,9 +295,9 @@ aside img:hover {
 		width: 100%;
 		clear: both;
 	}
-	
-	aside {
-		width: 100%;
+
+	aside img {
+		padding-right: 15px;
 	}
 
 	.push {
